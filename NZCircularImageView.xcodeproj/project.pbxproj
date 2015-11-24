@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		658EB0921C03F31100A0E948 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 658EB0911C03F31100A0E948 /* AsyncImageView.m */; };
 		73097D0853974B19AB5C3B09 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD3B240B0CD4914879609DB /* libPods.a */; };
 		F8E3546F18574013000755C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E3546E18574013000755C6 /* Foundation.framework */; };
 		F8E3547118574013000755C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E3547018574013000755C6 /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		4FD3B240B0CD4914879609DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		658EB0901C03F31100A0E948 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		658EB0911C03F31100A0E948 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 		6631AFF403FD98F6DC368207 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F5CB4731D3792A7874E7F027 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F8E3546B18574013000755C6 /* NZCircularImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZCircularImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +168,8 @@
 			children = (
 				F8E354DB18574C03000755C6 /* NZCircularImageView.h */,
 				F8E354DC18574C03000755C6 /* NZCircularImageView.m */,
+				658EB0901C03F31100A0E948 /* AsyncImageView.h */,
+				658EB0911C03F31100A0E948 /* AsyncImageView.m */,
 			);
 			path = NZCircularImageView;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8E354D418574BFE000755C6 /* NZAppDelegate.m in Sources */,
+				658EB0921C03F31100A0E948 /* AsyncImageView.m in Sources */,
 				F8E354D818574BFE000755C6 /* main.m in Sources */,
 				F8E354D318574BFE000755C6 /* NZViewController.m in Sources */,
 				F8E354DD18574C03000755C6 /* NZCircularImageView.m in Sources */,

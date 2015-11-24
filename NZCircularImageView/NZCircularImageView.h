@@ -26,7 +26,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import "UIImageView+UIActivityIndicatorForSDWebImage.h"
-#import <AsyncImageView/AsyncImageView.h>
+#import "AsyncImageView.h"
 
 @interface NZCircularImageView : AsyncImageView
 
