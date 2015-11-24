@@ -26,8 +26,9 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import "UIImageView+UIActivityIndicatorForSDWebImage.h"
+#import <AsyncImageView/AsyncImageView.h>
 
-@interface NZCircularImageView : UIImageView
+@interface NZCircularImageView : AsyncImageView
 
 @property (nonatomic, copy) UIColor*    borderColor;
 @property (nonatomic, copy) NSNumber*   borderWidth;
